@@ -35,4 +35,6 @@ public class User {
     @OneToMany(mappedBy = "userId")
     private List<Order> orderList;
 
+    private Long roleId;
+
 }
